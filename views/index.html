@@ -320,6 +320,21 @@
         input[type="number"] { -moz-appearance: textfield; }
         input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
 
+        /* Fix dropdown option visibility */
+        select option {
+            background: var(--charcoal-800);
+            color: var(--white);
+            padding: var(--space-2) var(--space-3);
+        }
+        select option:checked, select option:hover {
+            background: var(--blood-600);
+            color: var(--white);
+        }
+        select option:disabled {
+            color: var(--text-dim);
+            background: var(--charcoal-800);
+        }
+
         /* ── Button System ───────────────────────────────────────────── */
         .btn {
             display: inline-flex;
