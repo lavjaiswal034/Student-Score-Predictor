@@ -1,0 +1,15 @@
+# Core
+pandas
+numpy
+scikit-learn
+
+# Boosting algorithms
+catboost
+xgboost
+
+# Visualisation (notebooks)
+seaborn
+matplotlib
+
+# Web framework
+flask
